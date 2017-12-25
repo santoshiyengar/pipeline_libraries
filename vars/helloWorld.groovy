@@ -1,8 +1,7 @@
-
-#!/usr/bin/env groovy
-
 def call(Closure body){
   node {
-    println "Hello World!!"
+      def code = {123}
+      println "Hello World!!"
+      println(code())
   }
 }
